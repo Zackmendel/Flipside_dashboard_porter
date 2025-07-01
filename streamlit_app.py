@@ -10,6 +10,8 @@ import builtins
 from pathlib import Path
 from urllib.parse import urljoin
 
+os.system("playwright install")
+
 import nest_asyncio
 nest_asyncio.apply()
 
